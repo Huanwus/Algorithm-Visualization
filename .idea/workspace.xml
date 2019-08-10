@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1ce4779-714d-430e-9b78-8392a755db23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1ce4779-714d-430e-9b78-8392a755db23" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564674716972</updated>
       <workItem from="1564674721744" duration="1100000" />
-      <workItem from="1565177094974" duration="4086000" />
+      <workItem from="1565177094974" duration="4326000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1565453357234</created>
@@ -180,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565453406952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次上传">
+      <created>1565453588678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565453588678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5186000" />
+    <option name="totallyTimeSpent" value="5426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1072" width="2048" height="1160" extended-state="6" />
@@ -206,8 +211,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995005" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004995" side_tool="true" visible="true" weight="0.32934132" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32934132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

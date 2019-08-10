@@ -17,6 +17,7 @@ public class AlogFrame extends JFrame {
     public AlogFrame(String title, int canvasWidth, int canvasHeight){
         super(title); // 调用父类的构造函数
 
+
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
 

@@ -1,6 +1,6 @@
 package com.lwuhan;
 
-import javax.annotation.Resource;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -9,12 +9,13 @@ import java.awt.*;
  * @Date: 2019/8/1 23:58
  * @Description:
  */
-public class AlogFrame extends JFrame {
+public class AlgoFrame extends JFrame {
     private int canvasWidth;
     private int canvasHeight;
+    public int getCanvasWidth() {return canvasWidth;}
+    public int getCanvasHeight() {return canvasHeight;}
 
-
-    public AlogFrame(String title, int canvasWidth, int canvasHeight){
+    public AlgoFrame(String title, int canvasWidth, int canvasHeight){
         super(title); // 调用父类的构造函数
 
 
@@ -32,18 +33,42 @@ public class AlogFrame extends JFrame {
 
     }
 
-    public AlogFrame (String title){
+    public AlgoFrame(String title){
         this(title, 1024, 768);
     }
-    public int getCanvasWidth() {return canvasWidth;}
-    public int getCanvasHeight() {return canvasHeight;}
+
+
 
     private class AlgoCanvas extends JPanel{
+
+        public AlgoCanvas(){
+            super(true); //打开双缓存
+        }
 
         @Override
         public void paintComponent(Graphics g){
             super.paintComponent(g);
-            g.drawOval(50,50,300,300);
+            Graphics2D g2d = (Graphics2D)g;
+
+            //抗锯齿
+            RenderingHints hints = new RenderingHints(
+                                            RenderingHints.KEY_ANTIALIASING,
+                                            RenderingHints.VALUE_ANTIALIAS_ON);
+            g2d.addRenderingHints(hints);
+
+
+
+            // 具体绘制
+
+            AlgoVisHelper.setStrokeWidth(g2d,5);
+
+
+            AlgoVisHelper.setColor(g2d,Color.BLUE);
+            AlgoVisHelper.fillCircle(g2d, canvasWidth/2,canvasHeight/2,200);
+
+            AlgoVisHelper.setColor(g2d,Color.RED);  //基于状态的颜色
+            AlgoVisHelper.strokeCircle(g2d,canvasWidth/2,canvasHeight/2,200);
+
         }
 
         @Override

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1ce4779-714d-430e-9b78-8392a755db23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lwuhan/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Play-with-Algorithm-Visualization/com/lwuhan/AlogFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Play-with-Algorithm-Visualization/com/lwuhan/AlogFrame$AlgoCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Play-with-Algorithm-Visualization/com/lwuhan/AlogFrame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Play-with-Algorithm-Visualization/com/lwuhan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Play-with-Algorithm-Visualization/com/lwuhan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwuhan/AlogFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lwuhan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lwuhan/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,24 +24,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lwuhan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="589">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            <state relative-caret-position="950">
+              <caret line="68" column="79" selection-start-line="68" selection-start-column="79" selection-end-line="68" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#AlogFrame#0;class#AlogFrame#0" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1230#1231#0" expanded="true" />
                 <element signature="e#1263#1264#0" expanded="true" />
               </folding>
@@ -52,10 +48,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lwuhan/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#867#868#0" expanded="true" />
@@ -94,17 +103,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/lwuhan/test.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/com/lwuhan/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lwuhan/AlogFrame.java" />
-        <option value="$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/lwuhan/circle.java" />
         <option value="$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/lwuhan/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/lwuhan/Circle.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="19" />
-    <option name="width" value="927" />
+    <option name="width" value="926" />
     <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -200,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564674716972</updated>
       <workItem from="1564674721744" duration="1100000" />
-      <workItem from="1565177094974" duration="7940000" />
+      <workItem from="1565177094974" duration="10199000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1565453357234</created>
@@ -230,17 +241,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565454126044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加代码,改善结构">
+      <created>1565539791462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565539791462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9040000" />
+    <option name="totallyTimeSpent" value="11299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="19" width="927" height="1061" extended-state="4" />
+    <frame x="67" y="19" width="1853" height="1061" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17026107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123408966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +267,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24695459" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24695459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,7 +295,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次上传" />
     <MESSAGE value="增加readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加readme" />
+    <MESSAGE value="增加代码,改善结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加代码,改善结构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/lwuhan/test.java">
@@ -306,36 +325,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lwuhan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lwuhan/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        <state relative-caret-position="950">
+          <caret line="68" column="79" selection-start-line="68" selection-start-column="79" selection-end-line="68" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#AlogFrame#0;class#AlogFrame#0" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1230#1231#0" expanded="true" />
             <element signature="e#1263#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lwuhan/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lwuhan/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
           </folding>
         </state>
       </provider>

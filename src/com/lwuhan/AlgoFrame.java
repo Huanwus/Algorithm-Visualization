@@ -1,8 +1,8 @@
 package com.lwuhan;
 
-
 import javax.swing.*;
 import java.awt.*;
+
 
 /**
  * @Auther: wuhan
@@ -37,7 +37,11 @@ public class AlgoFrame extends JFrame {
         this(title, 1024, 768);
     }
 
-
+    private Circle[] circles;
+    public void render(Circle[] circles){
+        this.circles = circles;
+        repaint(); //将所有空间重新刷新一遍
+    }
 
     private class AlgoCanvas extends JPanel{
 
@@ -59,15 +63,11 @@ public class AlgoFrame extends JFrame {
 
 
             // 具体绘制
-
-            AlgoVisHelper.setStrokeWidth(g2d,5);
-
-
-            AlgoVisHelper.setColor(g2d,Color.BLUE);
-            AlgoVisHelper.fillCircle(g2d, canvasWidth/2,canvasHeight/2,200);
-
-            AlgoVisHelper.setColor(g2d,Color.RED);  //基于状态的颜色
-            AlgoVisHelper.strokeCircle(g2d,canvasWidth/2,canvasHeight/2,200);
+            AlgoVisHelper.setStrokeWidth(g2d,1);
+            AlgoVisHelper.setColor(g2d, Color.RED);
+            for (Circle circle: circles){
+                AlgoVisHelper.strokeCircle(g2d, circle.x,circle.y,circle.getR());
+            }
 
         }
 

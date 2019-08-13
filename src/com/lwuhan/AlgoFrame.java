@@ -7,7 +7,7 @@ import java.awt.*;
 /**
  * @Auther: wuhan
  * @Date: 2019/8/1 23:58
- * @Description:
+ * @Description: 视图层，负责显示的逻辑
  */
 public class AlgoFrame extends JFrame {
     private int canvasWidth;

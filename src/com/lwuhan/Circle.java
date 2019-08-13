@@ -10,8 +10,6 @@ public class Circle {
     private int r;
     public int vx, vy;
 
-
-
     public Circle(int x, int y, int r, int vx, int vy) {
         this.x = x;
         this.y = y;

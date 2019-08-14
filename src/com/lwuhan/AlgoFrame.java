@@ -7,7 +7,7 @@ import java.awt.*;
 /**
  * @Auther: wuhan
  * @Date: 2019/8/1 23:58
- * @Description: 视图层，负责显示的逻辑
+ * @Description: MVC视图层，负责显示的逻辑
  */
 public class AlgoFrame extends JFrame {
     private int canvasWidth;
@@ -17,7 +17,6 @@ public class AlgoFrame extends JFrame {
 
     public AlgoFrame(String title, int canvasWidth, int canvasHeight){
         super(title); // 调用父类的构造函数
-
 
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
@@ -66,7 +65,11 @@ public class AlgoFrame extends JFrame {
             AlgoVisHelper.setStrokeWidth(g2d,1);
             AlgoVisHelper.setColor(g2d, Color.RED);
             for (Circle circle: circles){
-                AlgoVisHelper.strokeCircle(g2d, circle.x,circle.y,circle.getR());
+                if(!circle.isFilled)
+                    AlgoVisHelper.strokeCircle(g2d, circle.x,circle.y,circle.getR());
+                else
+                    AlgoVisHelper.fillCircle(g2d, circle.x,circle.y,circle.getR());
+
             }
 
         }

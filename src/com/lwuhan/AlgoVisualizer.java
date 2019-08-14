@@ -14,6 +14,8 @@ public class AlgoVisualizer {
     private boolean isAnimated = true;
 
     public AlgoVisualizer( int sceneWidth, int sceneHeight, int N ){
+
+        //初始化数据
         circles = new Circle[N];
         int R = 50;
         for (int i = 0; i< N;i++){
@@ -25,7 +27,7 @@ public class AlgoVisualizer {
 
         }
 
-        // 事件队列, 应该快速完成
+        // 初始化视图；事件队列, 应该快速完成
         EventQueue.invokeLater(() -> {
             frame = new AlgoFrame("Welcome",sceneWidth,sceneHeight);
             frame.addKeyListener(new AlgoKeyListener());
@@ -75,21 +77,22 @@ public class AlgoVisualizer {
         @Override
         public void mousePressed(MouseEvent event){
             // 对点击的点的坐标要进行移动， 因为frame把上面的bar计算在内了
-//            event.translatePoint(0,
-//                    );
+            event.translatePoint(0,
+                    -(frame.getBounds().height - frame.getCanvasHeight()));
 
-            System.out.println(event.getPoint());
+//            System.out.println(event.getPoint());
+            for (Circle circle: circles){
+                if(circle.contain(event.getPoint()))
+                    circle.isFilled = !circle.isFilled;
+            }
 
         }
     }
 
     public static void main(String[] args) {
-
         int sceneWidth = 800;
         int sceneHeight = 800;
         int N = 20;
         AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth,sceneHeight, N);
-
     }
-
 }
